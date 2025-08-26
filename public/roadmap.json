@@ -1,0 +1,1514 @@
+{
+  "phases": [
+    {
+      "title": "Phase 1: Core Python Skills (Weeks 1–4)",
+      "weeks": [
+        {
+          "title": "Week 1 – Python Fundamentals",
+          "days": [
+            {
+              "title": "Day 1-2: Data types, variables, input/output (hands-on: calculator script)",
+              "tasks": [
+                {
+                  "description": "Create a simple script to declare variables of different types (int, float, str, bool) and print their types using `type()`.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Write code to take user input for two numbers and a name, then output a formatted string like \"Hello [name], [num1] + [num2] = [sum]\".",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build a basic calculator script: Prompt for two numbers and an operator (+, -, *, /), compute the result, and handle division by zero with a message.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Extend the calculator to support multiple operations in a loop until the user types 'exit'.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Debug and test the script with various inputs, including invalid ones (e.g., non-numeric input) using `try-except`.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 3-4: Control flow (if-else, loops). (hands-on: FizzBuzz, prime checker)",
+              "tasks": [
+                {
+                  "description": "Write an if-else statement to check if a number (user input) is positive, negative, or zero, and print accordingly.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Implement a for loop to print numbers from 1 to 20, skipping multiples of 3 using `continue`.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create a while loop that keeps asking for user input until they enter 'quit', counting the attempts.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Code the FizzBuzz program: Loop from 1 to 100, print \"Fizz\" for multiples of 3, \"Buzz\" for 5, \"FizzBuzz\" for both, else the number.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build a prime checker: Take a number as input, use a loop to check divisibility from 2 to sqrt(n), and output if it's prime. Test with numbers like 17, 25, 1.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 5: Functions (hands-on: Fibonacci generator)",
+              "tasks": [
+                {
+                  "description": "Define a simple function that takes two parameters (e.g., name and age) and returns a formatted greeting string. Call it multiple times.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Write a function with default arguments to calculate the area of a rectangle (length, width=10).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create a function using *args to sum any number of inputs and return the total.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Implement a Fibonacci generator function that takes n and returns a list of the first n Fibonacci numbers using a loop.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add a recursive version of the Fibonacci function and compare performance for n=30 (note recursion limits).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 6: Modules & imports (hands-on: utility module)",
+              "tasks": [
+                {
+                  "description": "Create a module file (e.g., math_utils.py) with functions for addition, subtraction, and factorial.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "In a main script, import the entire module and use its functions.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Use `from module import function` to import specific functions and alias one with `as`.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build a utility module with helper functions (e.g., string reverser, list sorter), import it, and use in a script that processes user input.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Explore built-in modules: Import math and random, use them to generate random numbers and compute square roots in a small game-like script.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 7 (Review): Solve 2 LeetCode easy problems",
+              "tasks": [
+                {
+                  "description": "Solve LeetCode problem \"Two Sum\": Write a function that takes a list and target, returns indices of two numbers that add up to target. Test with examples.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Solve LeetCode problem \"Palindrome Number\": Write a function to check if an integer is a palindrome without converting to string. Test edge cases like negative numbers.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Review all week’s code: Refactor one script (e.g., calculator) to use functions from your utility module.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Run and debug both LeetCode solutions with multiple test cases.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Week 2 – OOP Basics",
+          "days": [
+            {
+              "title": "Day 1-2: Classes & objects (hands-on: Student class)",
+              "tasks": [
+                {
+                  "description": "Define a basic class (e.g., Car) with attributes (color, speed) and a method to print details. Create two objects and modify attributes.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add an __init__ method to the class to initialize attributes via constructor.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create a Student class with attributes (name, age, grades list) and methods to add_grade and calculate_average.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Instantiate multiple Student objects, add grades, and print averages.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Extend Student class with a class variable for school_name and a static method to get total students count.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 3: Inheritance (hands-on: Animal → Dog/Cat)",
+              "tasks": [
+                {
+                  "description": "Create a base Animal class with methods like eat() and sleep().",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Define Dog and Cat classes that inherit from Animal, adding unique methods (bark() for Dog, meow() for Cat).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Override the eat() method in Dog to print \"Dog eats bones\".",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create objects of Dog and Cat, call inherited and overridden methods.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build a small script to manage a list of animals, calling their sounds polymorphically.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 4: Encapsulation & properties",
+              "tasks": [
+                {
+                  "description": "Modify the Student class to make grades private (__grades), add getter and setter methods.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Use @property decorator for a read-only average property in Student.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add validation in setter to ensure grades are between 0-100.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create a BankAccount class with private balance, methods for deposit/withdraw, using properties for balance access.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Test encapsulation by trying direct access (should fail) and using methods.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 5: Polymorphism (hands-on: shape area calculator)",
+              "tasks": [
+                {
+                  "description": "Define a base Shape class with a method area() that raises NotImplementedError.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create Circle and Rectangle classes inheriting Shape, implementing area() differently (use math.pi for Circle).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Write a function that takes a list of shapes and prints each area's using polymorphism.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build a shape area calculator: User inputs shape type and dimensions, create object, compute area.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add Triangle class and extend the calculator to handle it.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 6: Design inventory manager project",
+              "tasks": [
+                {
+                  "description": "Design classes: Item (name, price, quantity), Inventory (list of items, methods add/remove/search).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Implement add_item and remove_item with quantity checks.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add a method to calculate total inventory value.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create a script to simulate: Add 5 items, remove one, search by name, print total value.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Use encapsulation for item attributes.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 7 (Review): Refactor project using OOP",
+              "tasks": [
+                {
+                  "description": "Refactor the inventory manager: Use inheritance for different item types (e.g., PerishableItem with expiry).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add polymorphism for a display() method per item type.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Test the refactored project with sample data.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Review week’s code: Fix any bugs in polymorphism examples.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Week 3 – Data Structures & Algorithms",
+          "days": [
+            {
+              "title": "Day 1-2: Lists, dicts, sets, tuples (hands-on: word frequency counter)",
+              "tasks": [
+                {
+                  "description": "Create a list of numbers, perform append, pop, sort, and list comprehension to square them.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build a dict for student grades, add/update/remove entries, iterate with items().",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Use sets to find unique elements in a list and perform union/intersection.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create tuples for immutable data (e.g., coordinates), unpack them.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Implement word frequency counter: Read a string, split into words, use dict to count occurrences, sort by frequency.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 3: Stacks & queues (hands-on: browser history)",
+              "tasks": [
+                {
+                  "description": "Implement a stack using list: Push/pop/peek functions for a simple undo system.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Implement a queue using collections.deque: Enqueue/dequeue for a task manager.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build browser history: Use stack for back/forward navigation, simulate visiting pages.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add functionality to view current page and history list.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Test with sequences like visit A, B, C; back to B; forward to C.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 4: Trees & recursion (hands-on: binary tree traversal)",
+              "tasks": [
+                {
+                  "description": "Define a Node class for binary tree (value, left, right).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Implement recursive inorder traversal function.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add preorder and postorder traversals.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build a sample tree (e.g., root=1, left=2, right=3) and print traversals.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Write a recursive function to find tree height.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 5: Sorting (implement quicksort)",
+              "tasks": [
+                {
+                  "description": "Implement bubble sort on a list of numbers and test.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Code quicksort: Partition function and recursive sort.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Test quicksort with unsorted lists, duplicates, and empty list.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Compare performance visually by sorting large lists (e.g., time it).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add merge sort for comparison.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 6: Searching (binary search hands-on)",
+              "tasks": [
+                {
+                  "description": "Implement linear search on a list.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Code binary search (recursive and iterative) on a sorted list.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Test binary search with found/not found cases.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build a script: Generate sorted list, user inputs target, return index or -1.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Extend to search in a list of dicts by key.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 7 (Review): Solve 2 LeetCode medium problems",
+              "tasks": [
+                {
+                  "description": "Solve LeetCode \"Longest Substring Without Repeating Characters\": Use sliding window with set, test strings.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Solve LeetCode \"Container With Most Water\": Use two pointers, test height arrays.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Review week’s implementations: Optimize quicksort partition.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Week 4 – System Design Basics",
+          "days": [
+            {
+              "title": "Day 1-2: API contracts + JSON schema (hands-on: user schema)",
+              "tasks": [
+                {
+                  "description": "Write a JSON schema for a user object (id, name, email, age) using dicts.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Validate sample JSON data against schema manually (check types/keys).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create a function to generate JSON for a user and parse it back.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Design API contract: Define endpoints like /users (GET/POST) with request/response schemas.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Simulate API calls with print statements for inputs/outputs.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 3: REST API with Flask",
+              "tasks": [
+                {
+                  "description": "Install Flask (assume virtualenv), create app with hello world route.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add GET /users route returning JSON list.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Implement POST /users to add user from JSON body.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Run and test with curl or Postman.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add error handling for invalid JSON.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 4: Data flow diagram for user signup",
+              "tasks": [
+                {
+                  "description": "Sketch (in code comments) data flow: User input → Validation → DB insert → Response.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Implement a simple signup function simulating the flow.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add branching for errors (e.g., duplicate email).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Test the function with valid/invalid inputs.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Document the diagram in a markdown file.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 5-6: Microservices intro (draw architecture)",
+              "tasks": [
+                {
+                  "description": "Define classes for services: AuthService, UserService with methods.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Simulate communication: UserService calls AuthService for token.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Draw architecture in comments: Client → API Gateway → Services.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build a script running multiple \"services\" (functions) interacting.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add logging to trace calls between services.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 7 (Review): Build mini REST API + diagram request flow",
+              "tasks": [
+                {
+                  "description": "Extend Flask API with /signup endpoint following Day 4 flow.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add diagram in code comments for request flow.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Test full API with multiple requests.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Review: Refactor for better error handling.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Week 5 – Django Basics",
+          "days": [
+            {
+              "title": "Day 1: Project setup + models",
+              "tasks": [
+                {
+                  "description": "Create a new Django project and app (e.g., blog).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Define a Post model with fields (title, content, date, author).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Run migrations and create superuser.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add data via shell: Create 3 Post instances.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Query models: Print all posts in shell.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 2: Views & templates",
+              "tasks": [
+                {
+                  "description": "Create a function-based view for listing posts.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Set up a template (HTML) to render post list with for loop.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add URL pattern for the view.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create a detail view for single post by ID.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Test in browser: Add CSS basics to template.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 3: Admin panel customization",
+              "tasks": [
+                {
+                  "description": "Register Post model in admin.py.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Customize admin: Add search_fields, list_display (title, date).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add inline for comments if extended.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create admin users and add posts via admin interface.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Filter and sort posts in admin.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 4-5: Authentication system",
+              "tasks": [
+                {
+                  "description": "Add Django auth: Include urls, set login/logout views.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Create user registration form and view.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Implement login required for post creation.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Build a profile view showing user details.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Test: Register, login, create post, logout.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 6: CRUD blog app",
+              "tasks": [
+                {
+                  "description": "Add create view/form for new post.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Implement update view for editing posts.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add delete view with confirmation.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Link all in templates (buttons for CRUD).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Test full CRUD cycle on 5 posts.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Day 7 (Review): Deploy blog locally",
+              "tasks": [
+                {
+                  "description": "Set up static files and collectstatic.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Run server and test all features.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Debug any issues (e.g., permissions).",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                },
+                {
+                  "description": "Add a simple search view for posts.",
+                  "completed": false,
+                  "notes": {
+                    "to_be_done": [],
+                    "to_be_practiced": [],
+                    "to_be_searched": [],
+                    "to_be_used_as_reference": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
