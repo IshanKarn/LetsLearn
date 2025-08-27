@@ -151,7 +151,8 @@ export default function Home() {
   return (
     <main className="container mx-auto p-4">
       <div className="flex justify-between mb-4">
-        <h1 className="text-2xl font-bold">Python Learning Tracker</h1>
+        <h1 className="text-2xl font-bold">Learning Tracker</h1>
+        <h1 className="text-1xl font-bold">Create and follow Learning Roadmaps. Track and categorize tasks, attach notes, questions. Share your progress and get reviews from peers. Keep learning, keep building...</h1>
         <button
           onClick={() => signOut({ callbackUrl: "/auth/signin" })}
           className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
