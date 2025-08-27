@@ -1,23 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-const NoteEditor = ({ note, taskId, category, updateRoadmap, phaseIndex, weekIndex, dayIndex, taskIndex }) => {
+const NoteEditor = ({ note, taskId, category, updateRoadmap, phaseIndex, weekIndex, dayIndex, taskIndex, disabled }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [editedContent, setEditedContent] = useState(note.content);
   const [error, setError] = useState(null);
 
   const handleEdit = async () => {
-    if (editedContent.trim() === '') {
-      setError('Content cannot be empty');
+    if (disabled) return;
+    if (editedContent.trim() === "") {
+      setError("Content cannot be empty");
       return;
     }
     try {
       setError(null);
-      await fetch(`http://localhost:5000/api/notes/${note.id}`, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
+      await fetch(`/api/notes/${note.id}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ content: editedContent }),
       });
-      // Refetch roadmap via updateRoadmap
       const updatedNotes = { ...note, content: editedContent };
       const task = {
         id: taskId,
@@ -32,14 +32,14 @@ const NoteEditor = ({ note, taskId, category, updateRoadmap, phaseIndex, weekInd
       await updateRoadmap(phaseIndex, weekIndex, dayIndex, taskIndex, task);
       setIsEditing(false);
     } catch (err) {
-      setError('Failed to update note');
+      setError("Failed to update note");
       console.error(err);
     }
   };
 
   return (
     <div className="flex items-center">
-      {isEditing ? (
+      {isEditing && !disabled ? (
         <>
           <input
             type="text"
@@ -64,12 +64,14 @@ const NoteEditor = ({ note, taskId, category, updateRoadmap, phaseIndex, weekInd
       ) : (
         <>
           <span>{note.content}</span>
-          <button
-            onClick={() => setIsEditing(true)}
-            className="ml-2 text-blue-500 hover:underline"
-          >
-            Edit
-          </button>
+          {!disabled && (
+            <button
+              onClick={() => setIsEditing(true)}
+              className="ml-2 text-blue-500 hover:underline"
+            >
+              Edit
+            </button>
+          )}
         </>
       )}
     </div>
