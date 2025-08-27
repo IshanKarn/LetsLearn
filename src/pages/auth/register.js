@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function Register() {
   const [email, setEmail] = useState("");
@@ -39,7 +40,7 @@ export default function Register() {
         <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">Register</button>
         {error && <p className="text-red-500">{error}</p>}
       </form>
-      <p className="mt-4">Already have an account? <a href="/auth/signin" className="text-blue-500">Sign In</a></p>
+      <p className="mt-4">Already have an account? <Link href="/auth/signin" className="text-blue-500">Sign In</Link></p>
     </div>
   );
 }
