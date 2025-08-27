@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
 import ProgressBar from "../../components/ProgressBar";
