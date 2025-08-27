@@ -17,7 +17,7 @@ export const authOptions = {
         role: { label: "Role", type: "text" },
       },
       async authorize(credentials) {
-        console.log("Credentials received:", credentials); // Debug log
+        console.log("Credentials received:", credentials);
         if (!credentials?.email || !credentials?.password) return null;
         try {
           const res = await pool.query("SELECT * FROM users WHERE email = $1", [
@@ -26,14 +26,21 @@ export const authOptions = {
           const user = res.rows[0];
           if (user && (await bcrypt.compare(credentials.password, user.password))) {
             const selectedRole = credentials.role;
-            const validRoles = user.roles || [];
-            const activeRole = validRoles.includes(selectedRole) ? selectedRole : validRoles[0];
-            console.log("Selected role:", selectedRole, "Active role set:", activeRole); // Debug log
+
+            // Ensure roles is always an array
+            const validRoles = Array.isArray(user.roles)
+              ? user.roles
+              : JSON.parse(user.roles || "[]");
+
+            const activeRole = validRoles.includes(selectedRole)
+              ? selectedRole
+              : validRoles[0];
+
             return {
               id: user.id.toString(),
               email: user.email,
               name: user.name,
-              roles: user.roles,
+              roles: validRoles,
               activeRole,
             };
           }
@@ -45,10 +52,13 @@ export const authOptions = {
       },
     }),
   ],
-  secret: process.env.AUTH_SECRET,
+  secret: process.env.NEXTAUTH_SECRET, // ✅ fixed
+  session: {
+    strategy: "jwt", // ✅ explicit
+  },
   callbacks: {
     async session({ session, token }) {
-      if (token) {
+      if (token && session.user) {
         session.user.id = token.id;
         session.user.roles = token.roles;
         session.user.activeRole = token.activeRole;
